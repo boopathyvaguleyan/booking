@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+   
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+@media only screen and (min-width:300px) and (max-width:600px) {
+.box{
+background-color:blue;
+}
+}
